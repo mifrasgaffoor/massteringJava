@@ -13,5 +13,16 @@ public class ConditionExample {
         //
 
 
+        int score = 85 ;
+        if (score > 80) {
+            System.out.println("MacBook");
+        } else if (score > 65) {
+            System.out.println("iPhone");
+        } else if (score > 35) {
+            System.out.println("Video game");
+        } else {
+            System.out.println("No item"); // Optional else for scores 35 or below
+        }
+
     }
 }
