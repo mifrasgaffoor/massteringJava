@@ -1,4 +1,4 @@
-package indermedidate;
+package indermedidate.method;
 
 public class MethodExample {
 

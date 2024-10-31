@@ -1,6 +1,6 @@
-package oop.abstraction.multipleInheritance;
+package oop.abstraction.interfaceDemo.multipleInheritance;
 
-public class C02  extends  C01 implements  I01,I02{
+public class C02  extends C01 implements I01, I02 {
     public static void main(String[] args) {
         C02 c02 = new C02();
         c02.m1();

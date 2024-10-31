@@ -1,4 +1,4 @@
-package oop.abstraction.multipleInheritance;
+package oop.abstraction.interfaceDemo.multipleInheritance;
 
 public class C01  implements I01, I02 {
 

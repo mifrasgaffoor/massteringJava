@@ -1,4 +1,4 @@
-package oop.abstraction;
+package oop.abstraction.interfaceDemo;
 
 public interface InterfaceDemo {
 
