@@ -12,6 +12,11 @@ public class ClassDemo implements InterfaceDemo {
         // calling staticMethod
         InterfaceDemo.staticMethod();
 
+        // Variable access
+        int age1 = classDemo.age;
+        System.out.println(age1);
+
+
         // calling classMethod
         classDemo.classMethod();
 
