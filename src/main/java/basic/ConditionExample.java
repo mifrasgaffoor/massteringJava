@@ -2,6 +2,7 @@ package basic;
 
 public class ConditionExample {
     public static void main(String[] args) {
+
         // if  else condition
         boolean isMarried = true;
         if (isMarried==true){
@@ -10,9 +11,7 @@ public class ConditionExample {
             System.out.println("No");
         }
 
-        //
-
-
+        // else-if ladder
         int score = 85 ;
         if (score > 80) {
             System.out.println("MacBook");
@@ -22,6 +21,21 @@ public class ConditionExample {
             System.out.println("Video game");
         } else {
             System.out.println("No item"); // Optional else for scores 35 or below
+        }
+
+        // switch
+
+        String day = "Tuesday";
+
+        switch (day){
+            case "Monday":
+                System.out.println("Hi");
+                break;
+            case "Tuesday":
+                System.out.println("No");
+                break;
+            default:
+                System.out.println("Wrong");
         }
 
     }

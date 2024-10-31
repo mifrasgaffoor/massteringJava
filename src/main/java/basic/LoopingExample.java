@@ -9,10 +9,20 @@ public class LoopingExample {
 
         // while
 
+       int count = 1;
+//        while (count <= 5){
+//            System.out.println("Iteration " + count);
+//            count++;
+//        }
+
 
         // do-while
 
 
+        do {
+            System.out.println("Iteration " + count);
+            count++;
+        }while (count <= 10 );
 
 
     }
