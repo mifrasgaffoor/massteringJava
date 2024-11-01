@@ -2,7 +2,7 @@ package indermedidate.exceptionHandling.unchecked;
 
 import java.util.Scanner;
 
-public class UncheckedDemo {
+public class UncheckedExceptionDemo {
     public static void main(String[] args) {
         System.out.println("program is started... ");
 
