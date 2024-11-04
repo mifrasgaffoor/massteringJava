@@ -33,6 +33,10 @@ public class ComparatorInterfaceDemo implements Comparator {
 //        }
 
         // Step 4: Compare the name length
+        // Compare by name
+        // return person1.name.compareTo(person2.name)
+
+
         if (name2.length() == name1.length()) {
             return 0;
         } else if (name2.length() > name1.length()) {
